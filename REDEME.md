@@ -7,4 +7,5 @@ OrderSpan用于设置Android的文本有序段落，仿照BulletSpan(无序段�
         spannableString.removeSpan(orderSpan1);//移除OrderSpan1
         spannableString.setSpan(orderSpan2, 0, paragraph.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);//添加OrderSpan2
         mParagraph2.setText(spannableString);
-```OrderSpan的第一个参数表示序号，第二个参数表示序号的颜色，第三个参数表示序号与正文的距离；如果使用无参的OrderSpan，那么参数为1，颜色为黑色。
+```
+OrderSpan的第一个参数表示序号，第二个参数表示序号的颜色，第三个参数表示序号与正文的距离；如果使用无参的OrderSpan，那么参数为1，颜色为黑色。
